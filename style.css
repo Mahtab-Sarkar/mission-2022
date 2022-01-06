@@ -108,6 +108,7 @@ body{
 }
 .develop{
     display:flex;
+    margin-bottom: 120px;
 }
 .half-width-develop{
     width: 50%;
@@ -131,4 +132,30 @@ body{
     text-align: justify;
     margin-bottom: 5px;
     margin-top: -20px;
+}
+.community{
+     display:flex;
+
+}
+.half-width-community{
+    width: 50%;
+    margin-left: 100px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    padding: 0 40px 30px 20px;
+}
+.half-width-community img{
+    width: 80%;
+}
+.text-style-1{
+    font-size: 40px;
+    font-weight: 1600px;
+}
+.text-style-pragraph-2{
+    text-align: justify;
+    margin-bottom: 5px;
+    margin-top: -20px;
+}
+.link-button-2{
+    margin-left:-3px;
 }
