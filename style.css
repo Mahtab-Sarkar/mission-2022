@@ -161,7 +161,9 @@ body{
 }
 footer{
     text-align: center;
-    color:whitesmoke
+    color:whitesmoke;
+    margin: 0;
+    box-sizing: border-box;
     background-color: black;
-
+    padding: 5px auto 5px auto;
 }
