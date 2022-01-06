@@ -2,7 +2,7 @@ body{
     font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .heading{
@@ -45,4 +45,65 @@ section{
     color: black;
     font-size: 15px;
     font-weight: 600;
+}
+.mission-2022{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+.flexible-container-mission{
+    display: flex;
+    margin-bottom: 100px;
+    padding: 60px 120px 240px 120px
+}
+.flexible-container-mission img{
+    height: 150px;
+    width: 150px;
+    padding: 5px 200px 5px 0;
+}
+.half-width-mission{
+    width: 33%;
+}
+.mission{
+    background-image: linear-gradient(to right top, #90f3a7, #aaf4a7, #c0f5aa);
+    text-align: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 0 5px 100px 5px;
+    margin: 0 10px 0 50px;
+}
+.vision{
+    background-image: linear-gradient(to right top, #f39090, #f1ab8f, #eac59e);
+    text-align: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 0 5px 100px 5px;
+    margin: 0 10px 0 10px;
+}
+.goal{
+    background-image: linear-gradient(to right top, #f3ee90, #f6f29d, #f9f5aa);
+    text-align: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 0 5px 100px 5px;
+    margin: 0 50px 0 10px;
+}
+.sub-heading{
+    text-align: left;
+    font-size: 33px;
+    margin: 5px 20px 0;
+}
+.text-style-pragraph-1{
+    text-align: left;
+    margin-left: 20px;
 }
