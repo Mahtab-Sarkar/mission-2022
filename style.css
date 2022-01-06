@@ -54,7 +54,6 @@ body{
 }
 .flexible-container-mission{
     display: flex;
-    margin-bottom: 100px;
     padding: 60px 120px 240px 120px
 }
 .flexible-container-mission img{
@@ -73,7 +72,7 @@ body{
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
-    padding: 0 5px 100px 5px;
+    padding: 0 5px 30px 5px;
     margin: 0 10px 0 50px;
 }
 .vision{
@@ -84,7 +83,7 @@ body{
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
-    padding: 0 5px 100px 5px;
+    padding: 0 5px 30px 5px;
     margin: 0 10px 0 10px;
 }
 .goal{
@@ -95,7 +94,7 @@ body{
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
-    padding: 0 5px 100px 5px;
+    padding: 0 5px 30px 5px;
     margin: 0 50px 0 10px;
 }
 .sub-heading{
@@ -106,4 +105,30 @@ body{
 .text-style-pragraph-1{
     text-align: left;
     margin-left: 20px;
+}
+.develop{
+    display:flex;
+}
+.half-width-develop{
+    width: 50%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    padding: 0 20px 30px 40px;
+}
+.half-width-develop img{
+    width: 60%;
+    margin-left: 200px;
+}
+.link-button-1{
+    margin-left: 0px;
+}
+.text-style{
+    font-size: 40px;
+    font-weight: 1600px;
+}
+.text-style-pragraph-2{
+    text-align: justify;
+    margin-bottom: 5px;
+    margin-top: -20px;
 }
