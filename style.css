@@ -1,0 +1,48 @@
+body{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    display: flex;
+}
+.heading{
+    font-size: 50px;
+    margin: 200px 0 0 10px;
+    padding: 0 0 0 20px;
+}
+.vl {
+    border-left: 5px solid red;
+    height: 150px;
+    position: left;
+    left: 100%;
+    margin: 200px 0 0 90px;
+    top: 0;
+  }
+.text-style-pragraph{
+    text-align: justify;
+    margin: 20px 0 20px 90px;
+}
+#text-style-pragraph-1{
+
+    margin: 50px 0 20px 90px;
+}
+.orange-color{
+    color:orange;
+}
+.half-width{
+    width: 70%;
+}
+.half-width img{
+    width:70%;
+    margin-left: 100px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: #ffe0b6;
+    margin:0 0 10px 90px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
